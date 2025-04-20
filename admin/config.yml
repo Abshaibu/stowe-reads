@@ -4,6 +4,18 @@ backend:
 media_folder: "images" # Where images will be stored
 public_folder: "/images"
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "index.md"
+        fields:
+          - { label: "Hero Heading", name: "hero.heading", widget: "string" }
+          - { label: "Hero Subheading", name: "hero.subheading", widget: "string" }
+          - { label: "About Title", name: "about.title", widget: "string" }
+          - { label: "About Content", name: "about.content", widget: "markdown" }
+            
   - name: "books"
     label: "Books"
     folder: "_books" # Jekyll will process files here
