@@ -1,17 +1,22 @@
 ---
-layout: page
-description: "Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla."
-image: assets/images/pic07.jpg
-nav-menu: true
-title: "My Book Site"
-hero:
-  heading: "Welcome to My Book Library"
-  subheading: "Discover my favorite reads!"
-about:
-  title: "About Me"
-  content: "I’m a passionate reader who loves sharing book recommendations."
 contact:
-  title: "Get in Touch"
+  title: Get in Touch
+nav-menu: true
+layout: page
+about:
+  title: About Me
+  content: I’m a passionate reader who loves sharing book recommendations.
+hero.heading: Home Alone
+hero.subheading: This is a test drive
+about.title: About the autor
+title: My Book Site
+about.content: There's not much to know about me actually. Just a little bit of this and that
+hero:
+  heading: Welcome to My Book Library
+  subheading: Discover my favorite reads!
+image: assets/images/pic07.jpg
+description: Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros.
+  tempus adipiscing nulla.
 ---
 
 <!-- Main -->
